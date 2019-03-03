@@ -1,6 +1,3 @@
-# Welcome
-This is a simple image slider for your website, feel free to use it any way you want
-
 # Usage
 This plugin requires some configuration with your .html (or similar) file.
 1. jQuery must be loaded into the file. The required file is located at [node_modules/jquery/dist/jquery.min.js](node_modules/jquery/dist/jquery.min.js), so using `<script src="node_modules/jquery/dist/jquery.min.js"></script>` should work just file, or you could use an external cdn like `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>`
