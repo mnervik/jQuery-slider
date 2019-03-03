@@ -1,4 +1,9 @@
 /* Define Variables */
+const automation_delay = 5000;
+const fade_start = 400;
+const fade_end = 100;
+
+/* Define Constants */
 const slider = $('.slider-item');
 const view = $('.slider-view');
 
@@ -14,9 +19,9 @@ slider.on('click', function (e) {
     slider.removeClass('active');               // remove all .active classes
 
     let $this = $(this);                        // remember $(this)
-    view.fadeOut(400, function () {             // fade out
+    view.fadeOut(fade_start, function () {      // fade out
         view.attr('src', $($this).attr('src')); // set new image
-    }).fadeIn(100);                             // fade back in
+    }).fadeIn(fade_end);                        // fade back in
 
     $(this).addClass('active');                 // set .active class
 
@@ -32,4 +37,4 @@ let automation = setInterval(function () {
     } else {                                    // not last image
         $('.slider-item.active').next('.slider-item').click();
     }
-}, 5000);                                       // how often should the automation run
+}, automation_delay);                           // how often should the automation run
