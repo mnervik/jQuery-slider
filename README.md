@@ -19,6 +19,8 @@ This plugin requires some configuration with your .html (or similar) file.
 </div>
 ```
 # Options
+The following variables can be changed (in *slider.js*) to make the plugin fit your needs.
+
 | Name | Default | Info |
 | ---- | ------- | ---- |
 | automation_delay | 5000 | How many milliseconds between each image |
