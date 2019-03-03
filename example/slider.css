@@ -1,0 +1,21 @@
+.slider {
+    text-align: center;
+}
+
+.slider-thumbs {
+    width: 100%;
+}
+.slider-item {
+    height: 90px;
+    opacity: 0.25;
+    transition: 500ms ease-out;
+}
+
+.slider-item.active,
+.slider-item:hover {
+    opacity: 1;
+}
+
+.slider-view {
+    height: 360px;
+}

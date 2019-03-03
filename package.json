@@ -1,0 +1,19 @@
+{
+  "name": "jquery-slider",
+  "version": "1.0.0",
+  "description": "A simple jQuery image slider",
+  "main": "slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "slider"
+  ],
+  "author": "Mathias Nervik",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
+
